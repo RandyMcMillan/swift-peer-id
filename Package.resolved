@@ -1,5 +1,5 @@
 {
-  "originHash" : "42d2d6c917df31396258e71e82993152cf3b70b7ee2c264f7000542154986777",
+  "originHash" : "16b1beed0158ad91332ba25e756034c043a68229a9550738fa20257c8f32da45",
   "pins" : [
     {
       "identity" : "cryptoswift",
@@ -35,6 +35,15 @@
       "state" : {
         "branch" : "gnostr",
         "revision" : "4bb2c3114da1ae994fd781eec7404dd4397fd7a3"
+      }
+    },
+    {
+      "identity" : "swift-cid",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/randymcmillan/swift-cid.git",
+      "state" : {
+        "branch" : "gnostr",
+        "revision" : "413ec6dbc58a78ee11da5af898b32e0b9df4ab49"
       }
     },
     {

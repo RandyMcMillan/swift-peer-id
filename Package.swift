@@ -31,8 +31,8 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         .package(path: "../swift-libp2p-crypto"),
-        .package(path: "../swift-multihash"),
-        .package(path: "../swift-cid"),
+        .package(url: "https://github.com/radnymcmillan/swift-multihash.git", branch: "gnostr"),
+        .package(url: "https://github.com/randymcmillan/swift-cid.git", branch: "gnostr"),
         .package(url: "https://github.com/apple/swift-protobuf.git", .upToNextMajor(from: "1.33.3")),
     ],
     targets: [
