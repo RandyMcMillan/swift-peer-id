@@ -1,5 +1,5 @@
 {
-  "originHash" : "16b1beed0158ad91332ba25e756034c043a68229a9550738fa20257c8f32da45",
+  "originHash" : "d6b20d4e91e32c21b7d0cd12876376a9a645cfb33767ef4439728d7e869732b2",
   "pins" : [
     {
       "identity" : "cryptoswift",
@@ -56,12 +56,39 @@
       }
     },
     {
+      "identity" : "swift-libp2p-crypto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/randymcmillan/swift-libp2p-crypto.git",
+      "state" : {
+        "branch" : "gnostr",
+        "revision" : "1c170a9cfba990ace72634712cfec9ce4862919a"
+      }
+    },
+    {
+      "identity" : "swift-multibase",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/randymcmillan/swift-multibase.git",
+      "state" : {
+        "branch" : "gnostr",
+        "revision" : "a7b50abbce26640a565640ff928376965b600e3d"
+      }
+    },
+    {
       "identity" : "swift-multicodec",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/randymcmillan/swift-multicodec.git",
       "state" : {
         "branch" : "gnostr",
         "revision" : "13eceb5d42820c868a5d678be190be78cb8455ae"
+      }
+    },
+    {
+      "identity" : "swift-multihash",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/randymcmillan/swift-multihash.git",
+      "state" : {
+        "branch" : "gnostr",
+        "revision" : "9efe8db010b44b198553852b5900f645153d7387"
       }
     },
     {
